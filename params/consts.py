@@ -1,7 +1,6 @@
 # Data
 DATASET_RAW = '../data/dataset_raw.csv'
 DATASET_LEAN = '../data/dataset_lean.csv'
-DATASET_TRANSFORMED = '../data/dataset_transformed.csv'
 
 # Models
 MODEL_CLASSIFICATION_JOBLIB = '../models/model_classification.joblib'

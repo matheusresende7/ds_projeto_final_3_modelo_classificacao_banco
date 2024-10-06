@@ -13,11 +13,7 @@ A inteção é que o modelo possa prever quais transações são fraudes, permit
 
 
 ## Descrição
-Nesse projeto de Ciência de Dados, resumidamente, foi realizada uma ampla análise exploratória gerando os principais insights do projeto e permitindo identificar duas principais personas para os clientes de uma plataforma de delivery. 
-
-Em seguida, foi criado um modelo de clusterização usando K-Means para identificar melhor as personas dos clientes e permitindo assim a empresa direcionar melhor a campanha de marketing para os clientes que tem a maior probabilidade de aceitá-la. 
-
-Por fim, foi criado um modelo de classificação usando Regressão Logística para prever se os clientes devem ou não aceitar as futuras campanhas de marketing da empresa.                                                                                                 |
+Nesse projeto de Ciência de Dados, foi criado um modelo de classificação usando Regressão Logística para prever se uma transação financeira é ou não fraude em uma instituição financeira. Para isso foram analisadas as principais métricas de avaliação dos modelos de classificação como: ROC-AUC, AUPRC, Recall, Precision, Accuracy e Time, para selecionar o melhor modelo para esse projeto. Além disso, como esse projeto de identificação de fraudes tem um dataset altamente desbalanceado, uma ação interessante seria criar modelos para diferentes faixas de valores de transações. Dessa forma, é possível equilibrar o investimento em uma equipe de prevenção a fraudes e ainda assim identificar as fraudes com os valores mais altos e que podem causar um grande prejuízo para a empresa.
 
 
 ## Referências
@@ -53,21 +49,7 @@ Por fim, foi criado um modelo de classificação usando Regressão Logística pa
 - `to_do.txt`: Arquivo para anotar as tarefas pendentes do projeto
 
 
-## Resultados - EDA
-![EDA_03](images/output_resultados_eda_03.png)
-
-![EDA_04](images/output_resultados_eda_04.png)
-
-![EDA_05](images/output_resultados_eda_05.png)
-
-## Resultados - Clusterização
+## Resultados - Classificação
 ![Models_03](images/output_resultados_models_03.png)
 
 ![Models_04](images/output_resultados_models_04.png)
-
-## Resultados - Classificação
-![Models_05](images/output_resultados_models_05.png)
-
-![Models_06](images/output_resultados_models_06.png)
-
-![Models_07](images/output_resultados_models_07.png)
